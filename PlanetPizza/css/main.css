@@ -649,6 +649,17 @@ button:hover {
   color: white;
 }
 
+/*.... About Us ..... */
+.bg-title-page {
+  width: 100%;
+  min-height: 545px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+}
 
-
-
+@media (max-width: 576px) {
+  .bg-title-page .tit6 {font-size: 30px;}
+}

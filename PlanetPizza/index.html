@@ -49,11 +49,11 @@
 								</li>
 
 								<li>
-									<a href="#">Menu</a>
+									<a href="menu.html">Menu</a>
 								</li>
 
 								<li>
-									<a href="#">Order</a>
+									<a href="#"><span data-toggle="tooltip" title="under construction" class="text-info">Order</span></a>
 								</li>
 
 								<li>
@@ -66,7 +66,7 @@
 									<a href="contact.html">Contact</a>
 								</li>
 								<li>
-									<a href="#">Sign-In</a>
+									<a href="#"><span data-toggle="tooltip" title="under construction" class="text-info">Sign-In</span></a>
 								</li>
  						    </ul>
 						</nav>
@@ -94,37 +94,37 @@
 		<ul class="menu-sidebar p-t-95 p-b-70">
 
 			<li class="t-center m-b-13">
-				<a href="#" class="txt19">Sing-In</a>
+				<a href="#" class="text01"><span data-toggle="tooltip" title="under construction" class="text-info">Sing-In</span></a>
 			</li>
 
 			<li class="t-center m-b-13">
-				<a href="index.html" class="txt19">Home</a>
+				<a href="index.html" class="text01">Home</a>
 			</li>
 			<li class="t-center m-b-13">
-				<a href="#" class="txt19">Menu</a>
-			</li>
-
-			<li class="t-center m-b-13">
-				<a href="#" class="txt19">Order</a>
+				<a href="menu.html" class="text01">Menu</a>
 			</li>
 
 			<li class="t-center m-b-13">
-				<a href="about.html" class="txt19">About</a>
+				<a href="#" class="text01"><span data-toggle="tooltip" title="under construction" class="text-info">Order</span></a>
 			</li>
 
 			<li class="t-center m-b-13">
-				<a href="#" class="txt19">Locations</a>
+				<a href="about.html" class="text01">About</a>
+			</li>
+
+			<li class="t-center m-b-13">
+				<a href="#" class="text01">Locations</a>
 			</li>
 
 			<li class="t-center m-b-33">
-				<a href="contact.html" class="txt19">Contact</a>
+				<a href="contact.html" class="text01">Contact</a>
 			</li>
 
 
 			<li class="t-center">
 				<!-- Button -->
 				<a href="#" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto" id="btn-brand1">
-					Reservation
+					<span data-toggle="tooltip" title="under construction" class="text-info">Reservation</span>
 				</a>
 			</li>
 		</ul>
@@ -155,7 +155,7 @@
 
 						<div class="wrap-btn-slide1 animated visible-false" data-appear="zoomIn">
 							<!-- Button1 -->
-							<a href="#" class="btn1 flex-c-m size1 txt3 trans-0-4">
+							<a href="menu.html" class="btn1 flex-c-m size1 txt3 trans-0-4">
 								View Our Menu
 							</a>
 						</div>
@@ -492,6 +492,9 @@
 
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
+	<!-- required for tooltip -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.4/css/tether.min.css"></script>
+	<!-- tooltip  End-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="vendor/select2/select2.min.js"></script>
@@ -499,9 +502,21 @@
 	<script type="text/javascript" src="vendor/slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/slick-custom.js"></script>
 	<script type="text/javascript" src="vendor/parallax100/parallax100.js"></script>
+
+
 	<script type="text/javascript">
         $('.parallax100').parallax100();
 	</script>
+
+	<!-- script to enable the use of tooltip -->
+
+	<script>
+		$(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+	</script>
+
+
 	<script src="js/main.js"></script>
 
 	<!-- Our Low Price Menu interest -->

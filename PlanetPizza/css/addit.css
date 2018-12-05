@@ -2752,6 +2752,15 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: white;
 }
 
+.txt2 {
+	font-family: Poppins;
+	font-weight: 700;
+	font-size: 90px;
+	line-height: 1.1;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
 
 .txt3 {
 	font-family: Montserrat;
@@ -2762,6 +2771,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	text-transform: uppercase;
 }
 
+.txt4 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 12px;
+	color: #222222;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
 
 .txt5 {
 	font-family: Poppins;
@@ -2770,6 +2787,34 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #333333;
 	text-transform: uppercase;
 	letter-spacing: 3px;
+}
+
+.txt6 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.txt7 {
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 50px;
+	color: #ec1d25;
+	line-height: 1.1;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.txt8 {
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 12px;
+	color: #999999;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .txt9 {
@@ -2796,6 +2841,13 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	letter-spacing: 1px;
 }
 
+.txt12 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 18px;
+	color: #666666;
+	line-height: 1.7;
+}
 
 .txt13 {
 	font-family: Poppins;
@@ -2836,8 +2888,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #999999;
 }
 
+.txt18 {
+	font-family: Noto+Sans;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #cccccc;
+}
 
-.text01 {
+.txt19 {
 	font-family: Montserrat;
 	font-weight: 400;
 	font-size: 14px;
@@ -2855,6 +2913,25 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	letter-spacing: 3px;
 }
 
+.txt21 {
+	font-family: Poppins;
+	font-weight: 300;
+	font-size: 18px;
+	color: #333333;
+	line-height: 1.4;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.txt22 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 22px;
+	color: #333333;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
 .txt23 {
 	font-family: Montserrat;
 	font-weight: 400;
@@ -2862,6 +2939,115 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #666666;
 	line-height: 1.7;
 }
+
+.txt24 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #ec1d25;
+}
+
+.txt25 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #222222;
+}
+
+.txt26 {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 15px;
+	color: #333333;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.txt27 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 12px;
+	color: #222222;
+	line-height: 1.5;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.txt28 {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 12px;
+	color: #222222;
+	line-height: 1.5;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+
+.txt29 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 12px;
+	color: #999999;
+	line-height: 1.5;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.txt30 {
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 39px;
+	color: white;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.txt31 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 12px;
+	color: white;
+}
+
+.txt32 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 12px;
+	color: #808080;
+	line-height: 1.5;
+}
+
+.txt33 {
+	font-family: Poppins;
+	font-weight: 500;
+	font-size: 22px;
+	color: #222222;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.txt34 {
+	font-family: Poppins;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #333333;
+	letter-spacing: 2px;
+}
+
+.txt35 {
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 12px;
+	color: #666666;
+	text-transform: uppercase;
+	line-height: 1.8;
+}
+
 
 /*[ Color ]
 -----------------------------------------------------------

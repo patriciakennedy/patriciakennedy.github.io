@@ -1,0 +1,26 @@
+.textp100{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.textp200{
+    text-align: center;
+    /*margin-top: 35px;*/
+    /*margin-bottom: 35px;*/
+}
+
+.textp300{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.pplanet a{text-align: center}
+/*.pplanet{*/
+    /*margin: 0 auto;*/
+/*}*/
+
+#testp{
+   text-align: center;
+    margin-bottom: 10px;
+}

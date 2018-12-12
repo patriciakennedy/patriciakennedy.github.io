@@ -1,0 +1,59 @@
+body {
+  padding-top: 3rem;
+}
+
+.hero {
+  padding: 20vh 0;
+  background: linear-gradient(to right, red, orange);
+}
+
+.features {
+  padding: 10vh 0;
+  background: #222;
+  color: white;
+}
+@media (min-width: 768px) {
+  .features {
+    padding: 20vh 0;
+  }
+}
+
+.pricing {
+  padding: 10vh 0;
+  text-align: center;
+}
+
+.button {
+  padding: 10vh 0;
+  text-align: left;
+}
+
+.headings {
+  padding: 10vh 0;
+  text-align: left;
+}
+
+
+@media (min-width: 768px) {
+  .pricing {
+    padding: 20vh 0;
+  }
+}
+
+.featured-price {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 10;
+  background: #222;
+}
+
+footer {
+  padding: 10vh 0;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.typo{
+  margin-top: 50px;
+}

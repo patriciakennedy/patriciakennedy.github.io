@@ -1,0 +1,50 @@
+$accent: #EF629F;
+$secondary: #EECDA3;
+$dark: #222;
+$medium-dark: lighten($dark, 25%);
+
+
+@mixin section-padding {
+  padding: 10vh 0;
+  @media (min-width: 768px) {
+    padding: 20vh 0;
+  }
+}
+
+body {
+  padding-top: 3rem;
+}
+
+.hero {
+  padding: 20vh 0;
+  background: linear-gradient(to right, $secondary, $accent);
+ }
+
+.display-3 {
+  color:white;
+}
+
+.typography {
+  @include section-padding;
+  background: $dark;
+  color: white;
+  margin-top: 100px;
+}
+
+.pricing {
+  @include section-padding;
+  text-align: center;
+}
+
+.featured-price {
+  transform: scale(1.1);
+  z-index: 10;
+  background: $dark;
+}
+
+footer {
+  padding: 10vh 0;
+  text-align: center;
+  background: black;
+  color: white;
+}

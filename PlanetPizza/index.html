@@ -16,7 +16,6 @@
 	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="css/addit.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 
@@ -29,10 +28,10 @@
 	<div class="animsition">
 	<!-- Header -->
 	<header>
-		<!-- ..................Header desktop........................................................... -->
-		<div class="wrap-menu-header gradient1 trans-0-4">
+<!-- ..................Header desktop........................................................... -->
+		<div class="wrap-menu-header gradient1">
 			<div class="container h-full">
-				<div class="wrap_header trans-0-3">
+				<div class="wrap_header">
 					<!-- ..........................Logo.............................................. -->
 					<div class="logo">
 						<a href="index.html">
@@ -41,7 +40,7 @@
 					</div>
 
 					<!-- .......................Menu................................................... -->
-					<div class="wrap_menu p-l-45 p-l-0-xl">
+					<div class="wrap_menu">
 						<nav class="menu">
 							<ul class="main_menu">
 								<li>
@@ -53,11 +52,12 @@
 								</li>
 
 								<li>
-									<a href="#"><span data-toggle="tooltip" title="under construction" class="text-info">Order</span></a>
+									<a href="#"><span data-toggle="tooltip" title="under construction" class="text-info">Order Online</span></a>
+									<!--<a href="#">Order Online</a>-->
 								</li>
 
 								<li>
-									<a href="#"><span data-toggle="tooltip" title="under construction" class="text-info">Locations</span></a>
+									<a href="location.html">Locations</a>
 								</li>
 								<li>
 									<a href="about.html">About</a>
@@ -68,71 +68,71 @@
 								<li>
 									<a href="#"><span data-toggle="tooltip" title="under construction" class="text-info">Sign-In</span></a>
 								</li>
+								<li>
+									<span class="contactxt">763 000 000</span>
+								</li>
  						    </ul>
 						</nav>
 					</div>
 
-					<!-- ..........................Social Media Icons................................. -->
-					<div class="social flex-w flex-l-m p-r-20">
-						<!--<a href="#"><i class="fa fa-address-card" aria-hidden="true"></i></a>-->
-						<a href="#"><i class="fa fa-shopping-cart m-l-21" aria-hidden="true"></i></a>
-						<!--<a href="#"><i class="fa fa-facebook m-l-21" aria-hidden="true"></i></a>-->
-
-						<button class="btn-show-sidebar m-l-33 trans-0-4"></button>
+<!-- ............................................Social Media Icons................................................. -->
+					<div class="social flex-w flex-l-m">
+						<a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+						<button class="btn-show-sidebar tlines"></button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
 
-	<!-- .........................Sidebar........................................................ -->
-	<aside class="sidebar trans-0-4">
+<!-- ................................................Sidebar........................................................ -->
+	<aside class="sidebar">
 		<!-- Button  to Hide the sidebar -->
-		<button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+		<button class="btn-hide-sidebar ti-close color0-hov"></button>
 
 		<!-- - -->
-		<ul class="menu-sidebar p-t-95 p-b-70">
+		<ul class="menu-sidebar">
 
-			<li class="t-center m-b-13">
-				<a href="#" class="txt19">Sing-In</a>
+			<li class="t-center">
+				<a href="#" class="text01">Sing-In</a>
 			</li>
 
-			<li class="t-center m-b-13">
-				<a href="index.html" class="txt19">Home</a>
+			<li class="t-center">
+				<a href="index.html" class="text01">Home</a>
 			</li>
-			<li class="t-center m-b-13">
-				<a href="menu.html" class="txt19">Menu</a>
-			</li>
-
-			<li class="t-center m-b-13">
-				<a href="#" class="txt19">Order</a>
+			<li class="t-center">
+				<a href="menu.html" class="text01">Menu</a>
 			</li>
 
-			<li class="t-center m-b-13">
-				<a href="about.html" class="txt19">About</a>
+			<li class="t-center">
+				<a href="#" class="text01">Order Online</a>
 			</li>
 
-			<li class="t-center m-b-13">
-				<a href="#" class="txt19">Locations</a>
+			<li class="t-center">
+				<a href="about.html" class="text01">About</a>
+			</li>
+
+			<li class="t-center">
+				<a href="location.html" class="text01">Locations</a>
 			</li>
 
 			<li class="t-center m-b-33">
-				<a href="contact.html" class="txt19">Contact</a>
+				<a href="contact.html" class="text01">Contact</a>
 			</li>
 
 
 			<li class="t-center">
 				<!-- Button -->
-				<a href="#" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto" id="btn-brand1">
+				<a href="#" class="btn3 flex-c-m subm-btn" id="btn-brand1">
 					Reservation
 				</a>
 			</li>
 		</ul>
 
 		<!-- - -->
-		<div class="gallery-sidebar t-center p-l-60 p-r-60 p-b-40">
+		<div class="gallery-sidebar t-center">
 			<!-- - -->
-			<h4 class="txt20 m-b-33">
+			<h4 class="m-b-33">
 				Gallery
 			</h4>
 
@@ -144,18 +144,18 @@
 		<div class="wrap-slick1">
 			<div class="slick1">
 				<div class="item-slick1 item1-slick1" style="background-image: url(images/slide-5.jpg);">
-					<div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-						<span class="caption1-slide1 txt1 t-center animated visible-false m-b-15" data-appear="fadeInDown">
+					<div class="wrap-content-slide1 sizefull flex-col-c-m">
+						<span class="caption1-slide1 hero-txt1  t-center animated visible-false m-b-15" data-appear="fadeInDown">
 							Welcome to
 						</span>
 
-						<h2 class="caption2-slide1 tit1 t-center animated visible-false m-b-37" data-appear="fadeInUp">
+						<h2 class="caption2-slide1 t-center animated visible-false pptxt" data-appear="fadeInUp">
 							Planet Pizza
 						</h2>
 
 						<div class="wrap-btn-slide1 animated visible-false" data-appear="zoomIn">
 							<!-- Button1 -->
-							<a href="#" class="btn1 flex-c-m size1 txt3 trans-0-4">
+							<a href="menu.html" class="btn1 flex-c-m herobtn hero-txt2">
 								View Our Menu
 							</a>
 						</div>
@@ -169,22 +169,22 @@
 		</div>
 	</section>
 
-	<!-- Sign up -->
-	<div class="section-signup bg1-pattern p-t-85 p-b-85">
-		<form class="flex-c-m flex-w flex-col-c-m-lg p-l-5 p-r-5">
-			<span class="txt5 m-10">
+
+<!-- Sign up -->
+	<div class="section-signup bg1-pattern spoffer1">
+		<form class="flex-c-m flex-w flex-col-c-m-lg">
+			<span class="spoffer">
 				Special Offers Sign up
 			</span>
 
-			<div class="wrap-input-signup size17 bo2 bo-rad-10 bgwhite pos-relative txt10 m-10">
-				<input class="bo-rad-10 sizefull txt10 p-l-20" type="text" name="email-address" placeholder="Email Adrress">
-				<i class="fa fa-envelope ab-r-m m-r-18" aria-hidden="true"></i>
+			<div class="wrap-input-signup bo2 bo-rad-10 bgwhite pos-relative m-10">
+				<input class="bo-rad-10 sizefull emailtxt" type="text" name="email-address" placeholder="Email Address">
 			</div>
 
 			<!-- Button3 -->
-			<button type="submit" class="btn3 flex-c-m size18 txt11 trans-0-4 m-10" id="btn-brand">
-				Sign-up
-			</button>
+			<span data-toggle="tooltip" title="Feature Disabled"><button type="submit" class="btn3 flex-c-m btnsign m-10 subm-btn" id="btn-brand">
+				SUBSCRIBE
+			</button></span>
 		</form>
 	</div>
 	</div>
@@ -192,36 +192,14 @@
 
 	<!--....... Our low price menu-->
 	<section id="pricing" class="pricing">
-		<div id="w">
-			<div class="pricing-filter">
-				<div class="pricing-filter-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-10 col-md-offset-1">
-								<div class="section-header">
-									<h2 class="pricing-title">Our Low Price Menu</h2>
-									<ul id="filter-list" class="clearfix">
-										<li class="filter" data-filter="all">All</li>
-										<li class="filter" data-filter=".pizza">Pizza
-										<li class="filter" data-filter=".wings">Wings</li>
-										<li class="filter" data-filter=".desert">Desert</li>
-										<li class="filter" data-filter=".drinks">Drinks</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="container">
-				<div class="row">
+				<div class="container">
+				<h2 id="hmmenu">Our Low Price Pizza & Chicken</h2>
+				<div class="row hmmenu1">
 					<div class="col-md-10 col-md-offset-1">
 						<ul id="menu-pricing" class="menu-price">
 							<li class="item dinner">
 
 								<a href="#">
-									<!--<img src="images/food1.jpg" class="img-responsive" alt="Food" >-->
 									<img src="images/pizza2.jpg" class="img-responsive" alt="Drink" >
 									<div class="menu-desc text-center">
                                             <span>
@@ -230,12 +208,9 @@
                                             </span>
 									</div>
 								</a>
-
-								<h2 class="white">$14.99</h2>
+								<h2 class="white">$5.99</h2>
 							</li>
-
 							<li class="item breakfast">
-
 								<a href="#">
 									<img src="images/pizza1.jpg" class="img-responsive" alt="Pizza" >
 									<div class="menu-desc">
@@ -246,7 +221,7 @@
 									</div>
 								</a>
 
-								<h2 class="white">$14.99</h2>
+								<h2 class="white">$5.99</h2>
 							</li>
 							<li class="item desert">
 
@@ -260,7 +235,7 @@
 									</div>
 								</a>
 
-								<h2 class="white">$14.99</h2>
+								<h2 class="white">$5.99</h2>
 							</li>
 							<li class="item breakfast special">
 
@@ -274,7 +249,7 @@
 									</div>
 								</a>
 
-								<h2 class="white">$14.99</h2>
+								<h2 class="white">$5.99</h2>
 							</li>
 							<li class="item breakfast">
 
@@ -288,7 +263,7 @@
 									</div>
 								</a>
 
-								<h2 class="white">$14.99</h2>
+								<h2 class="white">$5.99</h2>
 							</li>
 							<li class="item dinner special">
 
@@ -302,7 +277,7 @@
 									</div>
 								</a>
 
-								<h2 class="white">$14.99</h2>
+								<h2 class="white">$5.99</h2>
 							</li>
 							<li class="item desert">
 
@@ -316,7 +291,7 @@
 									</div>
 								</a>
 
-								<h2 class="white">$14.99</h2>
+								<h2 class="white">$5.99</h2>
 							</li>
 							<li class="item dinner">
 
@@ -330,7 +305,7 @@
 									</div>
 								</a>
 
-								<h2 class="white">$14.99</h2>
+								<h2 class="white">$5.99</h2>
 							</li>
 							<li class="item desert special">
 
@@ -347,9 +322,6 @@
 								<h2 class="white">$8.99</h2>
 							</li>
 						</ul>
-
-
-
 					</div>
 				</div>
 			</div>
@@ -357,103 +329,112 @@
 		</div>
 	</section>
 
+<!--.Menu Btn-->
+	<div class="wrap-btn-slide1 animated visible-false" data-appear="zoomIn">
+		<!-- Button1 -->
+		<a href="menu.html" class="btn1 flex-c-m herobtn hero-txt2 viemenu">
+			View Our Menu --
+		</a>
+	</div>
 
 
 
 
-	<!-- ...........................................Footer Elements.................................................. -->
-	<footer class="bg1">
-		<div class="container p-t-40 p-b-70">
+
+
+<!-- ..............................................Footer Elements.................................................. -->
+	<footer class="bkg1">
+		<div class="container p-t-40">
 			<div class="row">
-				<div class="col-sm-6 col-md-4 p-t-50">
+				<div class="col-sm-6 col-md-4">
 					<!-- - -->
-					<h4 class="txt13 m-b-33">
+					<h4 class="footer-txt1">
 						Contact Us
 					</h4>
 
-					<ul class="m-b-70">
-						<li class="txt14 m-b-14">
-							<i class="fa fa-map-marker fs-16 dis-inline-block size19" aria-hidden="true"></i>
+					<ul>
+						<li class="footer-txt2 addfot>
+							<i class="fa fa-map-marker dis-inline-block" aria-hidden="true" ></i>
 							900 Cliff St, Minneapolis, MN 50000
 						</li>
 
-						<li class="txt14 m-b-14">
-							<i class="fa fa-phone fs-16 dis-inline-block size19" aria-hidden="true"></i>
+						<li class="footer-txt2">
+							<i class="fa fa-phone dis-inline-block" aria-hidden="true"></i>
 							(+1) 763 000 000
 						</li>
 
-						<li class="txt14 m-b-14">
-							<i class="fa fa-envelope fs-13 dis-inline-block size19" aria-hidden="true"></i>
+						<li class="footer-txt2">
+							<i class="fa fa-envelope dis-inline-block" aria-hidden="true"></i>
 							info@planetpizza.com
 						</li>
 					</ul>
 
 					<!-- - -->
-					<h4 class="txt13 m-b-32">
+					<h4 class="footer-txt1 open-txt">
 						Opening Hours
 					</h4>
 
 					<ul>
-						<li class="txt14">
+						<li class="footer-txt2">
 							11:00 AM – 10:30 PM
 						</li>
 
-						<li class="txt14">
+						<li class="footer-txt2">
 							Daily
 						</li>
 					</ul>
 				</div>
 
-				<div class="col-sm-6 col-md-4 p-t-50">
+				<div class="col-sm-6 col-md-4">
 					<!-- - -->
-					<h4 class="txt13 m-b-33">
+					<h4 class="footer-txt1">
 						Latest Tweets
 					</h4>
 
-					<div class="m-b-25">
-						<span class="fs-13 color2 m-r-5">
+					<div>
+						<span class="color2">
 							<i class="fa fa-twitter" aria-hidden="true"></i>
 						</span>
-						<a href="#" class="txt15">
+						<a href="#" class="footer-txt3">
 							@planetpizza
 						</a>
 
-						<p class="txt14 m-b-18">
+						<p class="footer-txt2">
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa.
-							<a href="#" class="txt15">
+							<a href="#" class="footer-txt3">
 								https://nice763/9gbvcds
 							</a>
 						</p>
 
-						<span class="txt16">
+						<span class="footer-txt4">
 							November 3, 2018
 						</span>
 					</div>
 
 					<div>
-						<span class="fs-13 color2 m-r-5">
+						<span class="color2m-1-auto">
 							<i class="fa fa-twitter" aria-hidden="true"></i>
 						</span>
-						<a href="#" class="txt15">
+						<a href="#" class="footer-txt3">
 							@planetpizza
 						</a>
 
-						<p class="txt14 m-b-18">
+						<p class="footer-txt2">
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-							<a href="#" class="txt15">
+							<a href="#" class="footer-txt3">
 								https://sysye.s/67casxdf
 							</a>
 						</p>
 
-						<span class="txt16">
+						<span class="footer-txt4">
 							October 28, 2018
 						</span>
 					</div>
 				</div>
 
-				<div class="col-sm-6 col-md-4 p-t-50">
+				<div class="col-sm-6 col-md-4">
 					<!-- - -->
-					<h4 class="txt13 m-b-38">
+					<h4 class="footer-txt1">
 						Gallery
 					</h4>
 
@@ -462,17 +443,17 @@
 			</div>
 		</div>
 
-		<div class="end-footer bg2">
+		<div class="end-footer bkg2">
 			<div class="container">
-				<div class="flex-sb-m flex-w p-t-22 p-b-22">
-					<div class="p-t-5 p-b-5">
-						<a href="#" class="fs-15 c-white"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-						<a href="#" class="fs-15 c-white"><i class="fa fa-facebook m-l-18" aria-hidden="true"></i></a>
-						<a href="#" class="fs-15 c-white"><i class="fa fa-twitter m-l-18" aria-hidden="true"></i></a>
+				<div class="flex-sb-m flex-w">
+					<div>
+						<a href="#" class="c-white"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#" class="c-white"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#" class="c-white"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 					</div>
 
-					<div class="txt17 p-r-20 p-t-5 p-b-5">
-						Copyright &copy; 2018 All rights reserved  |  Site Designed by  <a href="#" target="_blank">Patricia C. Kennedy</a>
+					<div class="footer-txt5">
+						Copyright &copy; 2018 All rights reserved  |  Site Designed by  <a href="#" target="_blank">Patricia C. Kennedy</a> - <span class="colmctc">MCTC WEBI 2023</span>
 					</div>
 				</div>
 			</div>
@@ -503,15 +484,6 @@
         $('.parallax100').parallax100();
 	</script>
 	<script src="js/main.js"></script>
-
-
-	<!-- script to enable the use of tooltip -->
-
-	<script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-	</script>
 
 	<!-- Our Low Price Menu interest -->
 	<script src="js/owl.carousel.min.js"></script>

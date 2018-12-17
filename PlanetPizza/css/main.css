@@ -1,12 +1,10 @@
-/*------------------------------------------------------------------
+/* .................................
 Project-Client:  Planet Pizza
 Last change:  November 3, 2018
 Developer:  Patricia Candace Kennedy
 Purpose:  Business-Commercial
--------------------------------------------------------------------*/
-/*Website fonts & alternatives
---------------------------------------------------------------------
-*/
+..................................*/
+/*...Website fonts & alternatives ..*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 @import url('https://fonts.googleapis.com/css?family=Courgette');
@@ -23,11 +21,6 @@ Purpose:  Business-Commercial
 @font-face {
   font-family: Montserrat-Bold;
   src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Courgette-Regular;
-  src: url('../fonts/courgette/Courgette-Regular.ttf'); 
 }
 
 @font-face {
@@ -57,9 +50,7 @@ Purpose:  Business-Commercial
 
 
 
-/* Reset
---------------------------------------------------------
-*/
+/* Reset .................................. */
 * {
 	margin: 0px; 
 	padding: 0px; 
@@ -72,7 +63,7 @@ body, html {
     font-weight: 400;
 }
 
-/* ------------------------------------ */
+/* ....................................... */
 a {
 	font-family: Montserrat;
     font-weight: 400;
@@ -95,10 +86,7 @@ a:hover {
 	color: #ec1d25;
 }
 
-/* ------------------------------------ */
-/*h1,h2,h3,h4,h5,h6 {*/
-	/*margin: 0px;*/
-/*}*/
+/* .................................... */
 
 p {
 	font-family: Montserrat;
@@ -115,7 +103,7 @@ ul, li {
 }
 
 
-/* ------------------------------------ */
+/* .................................... */
 input {
 	outline: none;
 	border: none !important;
@@ -135,7 +123,7 @@ textarea:focus, input:focus {
 }
 
 
-/* ---------------btn--------------------- */
+/* ............. btn .............. */
 button {
 	outline: none !important;
 	border: none;
@@ -171,13 +159,7 @@ button:hover {
 }
 
 
-
-/*iframe {*/
-	/*border: none !important;*/
-/*}*/
-
-
-/* ------------------------------------ */
+/* .................................... */
 .container {
 	max-width: 1200px;
 }
@@ -186,9 +168,7 @@ button:hover {
   outline: none !important;
 }
 
-/*
-.......................Loading Effect.............
-*/
+/* ..........Loading Effect.........*/
 
 .animsition-loading-1 {
   position: absolute;
@@ -246,9 +226,7 @@ button:hover {
     }
 }
 
-/*
-..................Back To Top ................................
-*/
+/* .........Back To Top .....*/
 .btn-back-to-top {
   display: none;
   position: fixed;
@@ -288,7 +266,7 @@ button:hover {
 
 
 
-/*........................................................*/
+/*............................................*/
 .select2-container {
   display: block;
     max-width: 100%;
@@ -312,8 +290,7 @@ button:hover {
 }
 
 
-
-/*......................................... Header ...................................*/
+/*.............. Header ......................*/
 
 .wrap-menu-header {
   position: absolute;
@@ -347,12 +324,7 @@ button:hover {
 }
 
 
-
-
-
-
-
-/* -------------------------------Logo-------------------------*/
+/* ............ Logo ....................*/
 .logo {
   height: 90px;
 }
@@ -369,7 +341,7 @@ button:hover {
 }
 
 
-/* ........................... Menu................................ */
+/* ............. Menu................. */
 .wrap_menu {
   height: 100%;
 }
@@ -426,7 +398,6 @@ button:hover {
 }
 
 
-
 .main_menu > li > .sub_menu {
   top:100%;
   left: 0;
@@ -441,7 +412,7 @@ button:hover {
 }
 
 
-/*Social Media .....................................*/
+/*............ Social Media ............*/
 .social a {
   font-size: 15px;
   color: white;
@@ -495,10 +466,7 @@ button:hover {
   }
 }
 
-
-
-
-/*sidebar-displays more navigation options*/
+/*....sidebar-displays more navigation options...*/
 .sidebar {
   position: fixed;
   z-index: 1200;
@@ -555,9 +523,7 @@ button:hover {
 
 
 
-/*Side Elements*/
-
-/*--------------------------------------------------*/
+/*............ Side Elements .........*/
 .wrap-slick1,
 .wrap-slick2,
 .wrap-slick3 {
@@ -586,7 +552,7 @@ button:hover {
   }
 }
 
-/* ------------------------------------ */
+/* ...................................... */
 .wrap-slick1-dots {
   position: absolute;
   width: 100%;
@@ -638,9 +604,7 @@ button:hover {
     background-color: #d41b22;
 } 
 
-/*[ Button1 ]
-..................................................
-*/
+/*...................................*/
 .btn1 {
   background: white;
   border-radius: 10px;
@@ -661,7 +625,7 @@ button:hover {
   color: white;
 }
 
-/*........................................ TEXT-FONTS & TITLES .............................................. */
+/*.........Text-fonts & titles..... */
 
 .btnsign {
   width: 160px;
@@ -723,10 +687,10 @@ button:hover {
 .m-10 {margin: 10px;}
 
 .m-l--6 {margin-left: -6px;}
-/* ------------------------------------ */
+/* ..................................... */
 .tt-up {text-transform: uppercase;}
 
-/* ------------------------------------ */
+/* ..................................... */
 .t-center {text-align: center;}
 .t-left {text-align: left;}
 .t-right {text-align: right;}
@@ -791,7 +755,7 @@ button:hover {
 
 .color0-hov:hover {color: #ec1d25;}
 
-/*....................................................... Border .....................................................*/
+/*........... Border ...................*/
 .bo1 {border: 1px solid #ebebeb;}
 .bo2 {border: 2px solid #d9d9d9;}
 .bo4 {border: 4px solid #ec1d25;}
@@ -821,7 +785,7 @@ button:hover {
   border-bottom-right-radius: 2px;
 }
 
-/*..................................................... ABOUT US .................................................... */
+/*.............. About Us .......... */
 .bg-title-page {
   width: 100%;
   min-height: 545px;
@@ -839,17 +803,11 @@ button:hover {
 }
 
 
-/*.ustxt1{*/
-  /*width: 50%;*/
-  /*margin: 0 auto;*/
-  /*text-align: left;*/
-/*}*/
-
 @media (max-width: 576px) {
   .bg-title-page .tit6 {font-size: 30px;}
 }
 
-/* .................................................. FOOTER ........................................................ */
+/* ...........Footer ................. */
 
 .ftmargins{
 margin-top: -30px;
@@ -919,13 +877,7 @@ color: red;
 }
 
 
-
-
-
-
-
-
-/*..................................................HEADER ...........................................................*/
+/*...........Header ....................*/
 .hero-txt1 {
   font-family: Courgette;
   font-size: 60px;
@@ -1050,10 +1002,8 @@ margin-bottom: 15px;
 
 }
 
-/*reservation btn*/
 
-
-  /*...........................................CONTACT................................................................*/
+/*..............Contact .............*/
 .subm-btn{
   color: white;
 }
@@ -1082,7 +1032,7 @@ margin-bottom: 15px;
   color: #bd2130;
 }
 
-/*...........................................ABOUT....................................................................*/
+/*................ About ................*/
 .abttxt {
   max-width: 868px;
   text-align: center;
@@ -1127,7 +1077,7 @@ margin-bottom: 15px;
 .allmarginbew{
   margin-bottom: 15px;
 }
-/*...........................................Menu.................................................*/
+/*.............Menu..................*/
 .contactxt{
   color: white;
   font-size: 20px;
@@ -1156,11 +1106,6 @@ margin-bottom: 15px;
 }
 
 
-.pricing{
-  /*margin: 0 auto;*/
-  /*margin-left: 200px;*/
-}
-
 
 .pricem{
   color:red;
@@ -1171,14 +1116,8 @@ margin-bottom: 15px;
   margin-top: 45px;
 }
 
-/*.hmmenu1{*/
-  /*margin-left: 70px;*/
-/*}*/
 
-
-
-/*...........................................LOCATION.................................................*/
-
+/*...............Location.............*/
 
 .location-box {
   background-color:#dbdbdb;
@@ -1216,7 +1155,7 @@ margin-bottom: 15px;
   color: #4e4e4e;
 }
 
-/*...........................................BACKGROUND COLOR & HOVER.................................................*/
+/*.........Background Color & Hover.........*/
 .bkg1 {background-color: #222222;}
 .bkg2 {background-color: #111111;}
 
@@ -1255,7 +1194,7 @@ margin-bottom: 15px;
 
 .hov-pointer:hover {cursor: pointer;}
 
-/*..............................................wrap-cir-pic .........................................................*/
+/*............wrap-cir-pic ..............*/
 .wrap-cir-pic {
   border-radius: 50%;
   overflow: hidden;
@@ -1265,7 +1204,7 @@ margin-bottom: 15px;
 }
 
 
-/*............................................... Hover img zoom......................................................*/
+/*........ Hover img zoom ...............*/
 .hov-img-zoom {
   display: block;
   overflow: hidden;
@@ -1286,10 +1225,7 @@ margin-bottom: 15px;
 }
 
 
-
-
-
-/*..................................................Position .........................................................*/
+/*...............Position ...................*/
 .position1 {
   position: absolute;
   top: 0;
@@ -1298,7 +1234,7 @@ margin-bottom: 15px;
 
 
 
-/*...........................................RESPONSIVE.............................................................*/
+/*............... Reservation................*/
 
 /*[ XL ] ---- */
 @media (max-width: 1200px) {
